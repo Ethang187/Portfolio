@@ -4,6 +4,19 @@ body {
 	background-color: rgb(255,251,238);
 }
 
+.mainheader {
+animation: pulse 5s;
+}
+
+@keyframes pulse {
+	0%, 100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.05);
+	}
+}
+
 .firstsection {
 	background: linear-gradient(rgb(255,243,199), rgb(255,251,238));
 }
@@ -25,7 +38,7 @@ a {
 .navbarwords {
 	font-size: 1.2em;
 	font-weight: 100;
-	transition: font-weight 0.5s ease;
+	transition: font-weight 1s ease;
 }
 .navbarwords:hover {
 	font-weight: 500;

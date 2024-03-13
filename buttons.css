@@ -31,7 +31,7 @@
 }
 /* twitter*/
 .containerTwo:hover {
-  background-color: #00acee;
+  background-color: #2b3137;
   transition-duration: 0.8s;
   transform: translateY(-5px);
 }
@@ -41,9 +41,9 @@
   transition-duration: 0.8s;
   transform: translateY(-5px);
 }
-/* Whatsapp*/
+/* Discord*/
 .containerFour:hover {
-  background-color: #128C7E;
+  background-color: #7289da;
   transition-duration: 0.8s;
   transform: translateY(-5px);
 }
