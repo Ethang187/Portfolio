@@ -1,22 +1,33 @@
 body {
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
+	background-color: rgb(255,251,238);
 }
 
 .firstsection {
-	background-color: #FFF3C7;
+	background: linear-gradient(rgb(255,243,199), rgb(255,251,238));
+}
+
+.skills-section {
+
+	margin-left: 500px;
+}
+
+.individual-skills {
+	margin-top: 100px;
+	margin-left: 50px;
 }
 
 a {
 	text-decoration: none;
 	color: black;
 }
-h2 {
+.navbarwords {
 	font-size: 1.2em;
 	font-weight: 100;
 	transition: font-weight 0.5s ease;
 }
-h2:hover {
+.navbarwords:hover {
 	font-weight: 500;
 }
 
@@ -34,9 +45,15 @@ h1 {
 .mainfocus {
 	display: grid;
 	justify-content: center;
-    padding: 300px;
+    padding: 200px;
+    padding-bottom: 300px;
     padding-left: 200px;
     margin-right: 500px;
+}
+
+#summarytext {
+	width: 400px;
+	margin-top: 30px;
 }
 
 @media (max-width:1500px) {
