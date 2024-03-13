@@ -22,13 +22,13 @@ animation: pulse 5s;
 }
 
 .skills-section {
-
+	display: flex;
 	margin-left: 500px;
 }
 
-.individual-skills {
-	margin-top: 100px;
-	margin-left: 50px;
+#individualskills {
+	margin-left: 30px;
+	margin-top: 10px;
 }
 
 a {
