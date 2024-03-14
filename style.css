@@ -4,17 +4,40 @@ body {
 	background-color: rgb(255,251,238);
 }
 
-.mainheader {
-animation: pulse 5s;
+
+.typewriter {
+	display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 2s steps(40, end),
+    blink-caret 1s step-end infinite;
 }
 
-@keyframes pulse {
-	0%, 100% {
-		transform: scale(1);
-	}
-	50% {
-		transform: scale(1.05);
-	}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 75% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.mainheader {
+	opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 1.6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .firstsection {
@@ -24,6 +47,7 @@ animation: pulse 5s;
 .skills-section {
 	display: flex;
 	margin-left: 500px;
+	height: 2000px;
 }
 
 #individualskills {
@@ -69,11 +93,41 @@ h1 {
 	margin-top: 30px;
 }
 
+.logos {
+	width: 650px;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 40px;
+}
+
+#learnmore {
+	margin-top: 20px;
+}
+.right-hand-side-skills {
+	padding-left: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 500px;
+
+}
+
 @media (max-width:1500px) {
 	.mainfocus {
 		display: grid;
 		justify-content: center;
 		align-items: center;
 		margin: 0;
+	}
+	.skills-section {
+		height: auto;
+		width: auto;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 	}
 }
