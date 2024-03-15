@@ -46,7 +46,8 @@ body {
 
 .skills-section {
 	display: flex;
-	margin-left: 500px;
+	margin-top: 300px;
+	margin-left: 400px;
 	height: 2000px;
 }
 
@@ -61,11 +62,11 @@ a {
 }
 .navbarwords {
 	font-size: 1.2em;
-	font-weight: 100;
-	transition: font-weight 1s ease;
+	font-weight: 400;
+	transition: font-weight 2s ease;
 }
 .navbarwords:hover {
-	font-weight: 500;
+	font-weight: 600;
 }
 
 h1 {
@@ -85,7 +86,7 @@ h1 {
     padding: 200px;
     padding-bottom: 300px;
     padding-left: 200px;
-    margin-right: 500px;
+    margin-right: 600px;
 }
 
 #summarytext {
@@ -99,19 +100,38 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 10px;
-	margin-bottom: 40px;
+	margin-bottom: 70px;
 }
 
-#learnmore {
-	margin-top: 20px;
+.learnmore {
+	color: rgb(64,64,64);
+	font-weight: 700;
+	margin-top: 60px;
+	transition: font-weight 2s ease;
 }
+
+.learnmore:hover {
+	font-weight: 800;
+}
+
 .right-hand-side-skills {
-	padding-left: 100px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	width: 500px;
+	margin-left: 80px;
+	margin-top: 90px;
 
+}
+
+#giraffe {
+	height: 350px;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+.skillsheader {
+	text-align: center;
 }
 
 @media (max-width:1500px) {
@@ -129,5 +149,26 @@ h1 {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+	}
+	.right-hand-side-skills {
+		margin: 0;
+		flex-direction: row;
+		padding: 40px;
+		width: 677px;
+	}
+	#learnmore {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width:660px) {
+	h1 {
+		font-size: 3em;
+	}
+	.logos {
+		margin-bottom: 50px;
+	}
+	#learnmore {
+		margin-top: 50px;
 	}
 }
