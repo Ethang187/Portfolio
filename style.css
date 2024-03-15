@@ -48,7 +48,7 @@ body {
 	display: flex;
 	margin-top: 300px;
 	margin-left: 400px;
-	height: 2000px;
+	margin-bottom: 500px;
 }
 
 #individualskills {
@@ -103,14 +103,13 @@ h1 {
 	margin-bottom: 70px;
 }
 
-.learnmore {
+.links {
 	color: rgb(64,64,64);
 	font-weight: 700;
-	margin-top: 60px;
 	transition: font-weight 2s ease;
 }
 
-.learnmore:hover {
+.links:hover {
 	font-weight: 800;
 }
 
@@ -124,7 +123,7 @@ h1 {
 
 }
 
-#giraffe {
+.giraffe {
 	height: 350px;
 	margin-top: 40px;
 	border-radius: 10px;
@@ -132,6 +131,36 @@ h1 {
 
 .skillsheader {
 	text-align: center;
+}
+
+.projects-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 500px;
+}
+
+#projectsheader {
+	text-align: center;
+}
+
+.projectleftside {
+	width: 600px;
+	margin-top: 100px;
+	margin-right: 150px;
+}
+
+.projectrightside {
+	margin-top: 50px;
+	margin-left: 150px;
+}
+
+.projectname {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	justify-content: space-between;
+	margin-bottom: 20px;
+
 }
 
 @media (max-width:1500px) {
