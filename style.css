@@ -206,4 +206,9 @@ h1 {
 	.right-hand-side-skills{
 		width: 480px;
 	}
+	.projects-section {
+		display: grid;
+		align-items: center;
+		justify-content: center;
+	}
 }
