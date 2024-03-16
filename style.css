@@ -191,13 +191,19 @@ h1 {
 }
 
 @media (max-width:660px) {
+	.firstsection {
+		margin-bottom: 50px;
+	}
 	h1 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 	.logos {
 		margin-bottom: 50px;
 	}
 	#learnmore {
 		margin-top: 50px;
+	}
+	.right-hand-side-skills{
+		width: 480px;
 	}
 }
