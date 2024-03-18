@@ -135,25 +135,32 @@ h1 {
 }
 
 .projects-section {
-	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	margin-bottom: 500px;
 }
 
+.project {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 300px;
+}
+
 #projectsheader {
 	text-align: center;
+	margin-bottom: 200px;
 }
 
 .projectleftside {
 	width: 600px;
 	margin-top: 100px;
-	margin-right: 150px;
+	margin-right: 50px;
 }
 
 .projectrightside {
 	margin-top: 50px;
-	margin-left: 150px;
+	margin-left: 50px;
 }
 
 .projectname {
