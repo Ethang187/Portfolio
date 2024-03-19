@@ -222,6 +222,21 @@ h1 {
 	#learnmore {
 		margin-top: 50px;
 	}
+	.project {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.projectleftside {
+		margin-right: 0px;
+	}
+	.projectrightside {
+		margin-left: 0px;
+	}
+	.readmore {
+		text-align: center;
+	}
 }
 
 @media (max-width:800px) {
