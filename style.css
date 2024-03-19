@@ -125,9 +125,21 @@ h1 {
 }
 
 .giraffe {
+		height: 350px;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+.projects-section .giraffe {
 	height: 350px;
 	margin-top: 40px;
 	border-radius: 10px;
+	transform: translateX(100%);
+	transition: transform 0.5s ease-in-out;
+}
+
+.projects-section .giraffe.visible {
+	transform: translateX(0);
 }
 
 .skillsheader {
