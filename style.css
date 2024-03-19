@@ -197,7 +197,7 @@ h1 {
 	margin-top: 50px;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1300px) {
 	.mainfocus {
 		display: grid;
 		justify-content: center;
@@ -208,6 +208,7 @@ h1 {
 		height: auto;
 		width: auto;
 		margin: 0;
+		margin-bottom: 500px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -244,7 +245,7 @@ h1 {
 		margin-bottom: 50px;
 	}
 	h1 {
-		font-size: 2em;
+		font-size: 2.5em;
 	}
 	.logos {
 		margin-bottom: 50px;
