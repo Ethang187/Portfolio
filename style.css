@@ -261,4 +261,7 @@ h1 {
 		align-items: center;
 		justify-content: center;
 	}
+	.projectleftside {
+		width: 400px;
+	}
 }
