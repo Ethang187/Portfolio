@@ -4,6 +4,9 @@ body {
 	background-color: rgb(255,251,238);
 }
 
+h2 {
+	color:#009087;
+}
 
 .typewriter {
 	display: inline-block;
@@ -19,7 +22,7 @@ body {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 75% }
+  to { width: 100% }
 }
 
 @keyframes blink-caret {
@@ -48,7 +51,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 300px;
 	margin-bottom: 500px;
 }
 
@@ -63,7 +65,7 @@ a {
 }
 .navbarwords {
 	font-size: 1.2em;
-	font-weight: 400;
+	font-weight: 700;
 	transition: font-weight 2s ease;
 
 }
@@ -73,7 +75,9 @@ a {
 }
 
 h1 {
-	font-size: 4.5em;
+	font-size: 3.5em;
+	font-weight: 700;
+	color:#009087;
 }
 
 .navbar {
@@ -168,10 +172,11 @@ h1 {
 	margin-bottom: 300px;
 }
 
-#projectsheader {
+.sectionheader {
 	text-align: center;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 	font-weight: 700;
+	font-size: 3.5em;
 }
 
 .projectleftside {
@@ -195,6 +200,18 @@ h1 {
 
 .readmore {
 	margin-top: 50px;
+}
+
+.contactme {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#getintouch {
+	font-size: 3.5em;
+	font-weight: 700;
 }
 
 @media (max-width:1300px) {
