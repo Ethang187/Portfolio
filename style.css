@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
-	background-color: rgb(255,251,238);
+	background: linear-gradient(rgb(255,243,199), rgb(255,251,238));
 }
 
 h2 {
@@ -49,10 +49,6 @@ h2 {
 @keyframes fade-in {
   0% { opacity: 0; }
   100% { opacity: 1; }
-}
-
-.firstsection {
-	background: linear-gradient(rgb(255,243,199), rgb(255,251,238));
 }
 
 .skills-section {
@@ -227,6 +223,48 @@ h1 {
 	font-weight: 600;
 }
 
+
+
+
+/*
+About me page
+*/
+.mystorytext {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	padding: 0px 20px;
+}
+
+.img1about {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+@media (min-width:600px) {
+	.mystorytext{
+		margin-right: 100px;
+		margin-left: 30px;
+		display: flex;
+		flex-direction: column;
+	}
+	.mystorysection {
+		display: flex;
+		flex-direction: row;
+	}
+	.img1about {
+		margin-right: 50px;
+	}
+}
+/*
+For phones and tables
+*/
 @media (max-width:1300px) {
 	.mainfocus {
 		display: grid;
