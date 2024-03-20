@@ -212,6 +212,7 @@ h1 {
 #getintouch {
 	font-size: 3.5em;
 	font-weight: 700;
+	text-align: center;
 }
 
 @media (max-width:1300px) {
@@ -280,5 +281,8 @@ h1 {
 	}
 	.projectleftside {
 		width: 400px;
+	}
+	.contactme {
+		padding: 50px;
 	}
 }
