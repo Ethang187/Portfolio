@@ -20,6 +20,14 @@ h2 {
     blink-caret 1s step-end infinite;
 }
 
+#basictext {
+	font-weight: 600;
+}
+
+.lm {
+	margin-top: 70px;
+}
+
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
@@ -216,6 +224,7 @@ h1 {
 
 #contactmetext {
 	margin: 100px 0px;
+	font-weight: 600;
 }
 
 @media (max-width:1300px) {
