@@ -214,6 +214,10 @@ h1 {
 	text-align: center;
 }
 
+#contactmetext {
+	margin: 100px 0px;
+}
+
 @media (max-width:1300px) {
 	.mainfocus {
 		display: grid;
