@@ -16,7 +16,7 @@ h2 {
   margin: 0 auto;
   letter-spacing: .15em;
   animation: 
-    typing 2s steps(40, end),
+    typing 2.5s steps(40, end),
     blink-caret 1s step-end infinite;
 }
 
@@ -30,7 +30,7 @@ h2 {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 70% }
 }
 
 @keyframes blink-caret {
@@ -42,7 +42,7 @@ h2 {
 	opacity: 0;
   animation-name: fade-in;
   animation-duration: 2s;
-  animation-delay: 1.6s;
+  animation-delay: 2.1s;
   animation-fill-mode: forwards;
 }
 
@@ -306,6 +306,15 @@ For phones and tables
 	.readmore {
 		text-align: center;
 	}
+	.typewriter {
+		animation: 
+    typing 2.5s steps(40, end),
+    blink-caret 1s step-end infinite;
+	}
+	@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 }
 
 @media (max-width:800px) {
