@@ -340,6 +340,7 @@ For phones and tables
 		justify-content: center;
 		align-items: center;
 		margin: 0;
+		margin-bottom: 200px;
 	}
 	.skills-section {
 		height: auto;
@@ -412,5 +413,8 @@ For phones and tables
 	}
 	.contactme {
 		padding: 50px;
+	}
+	.right-hand-side-skills{
+		
 	}
 }
