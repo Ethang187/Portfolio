@@ -30,7 +30,7 @@ h2 {
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 70% }
+  to { width: 100% }
 }
 
 @keyframes blink-caret {
