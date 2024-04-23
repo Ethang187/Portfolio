@@ -197,7 +197,7 @@ h1 {
 	display: grid;
 	grid-template-columns: repeat(2, auto);
 	justify-content: space-between;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 
 }
 
