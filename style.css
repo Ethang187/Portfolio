@@ -336,7 +336,12 @@ About me page
 /*
 Email SMS Page
 */
-
+.emailsmspage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 80px 40px;
+}
 
 
 
