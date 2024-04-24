@@ -355,6 +355,10 @@ Email SMS Page
 	max-width: 350px;
 }
 
+.pp {
+	margin-top: 200px;
+}
+
 @media (min-width:600px) {
 	.consolepic {
 		max-width: 600px;
