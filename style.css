@@ -343,6 +343,34 @@ Email SMS Page
 	margin: 80px 40px;
 }
 
+.consolepic {
+	border-radius: 10px;
+}
+
+.textpic {
+	max-width: 250px;
+}
+
+.emailsmspics {
+	max-width: 350px;
+}
+
+@media (min-width:600px) {
+	.consolepic {
+		max-width: 600px;
+	}
+	.personalpics{
+		max-width: 600px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.textpic {
+		max-width: 300px;
+	}
+}
 
 
 
