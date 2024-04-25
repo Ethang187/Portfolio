@@ -29,7 +29,15 @@ html {
 }
 
 .lm {
-	margin-top: 70px;
+	top: 20px;
+}
+
+.pl {
+	top: 40px;
+}
+
+.nl {
+	top: 10px;
 }
 
 @keyframes typing {
@@ -117,16 +125,6 @@ h1 {
 	margin-bottom: 70px;
 }
 
-.links {
-	color: rgb(64,64,64);
-	font-weight: 700;
-	transition: transform 2s ease-in-out;
-}
-
-.links:hover {
-	transform: scale(1.05);
-}
-
 .right-hand-side-skills {
 	display: flex;
 	flex-wrap: wrap;
@@ -205,9 +203,6 @@ h1 {
 
 }
 
-.readmore {
-	margin-top: 50px;
-}
 
 .contactme {
 	display: flex;
@@ -378,7 +373,6 @@ Email SMS Page
   display: inline;
   position: relative;
   overflow: hidden;
-  color: #5A6D5F;
 }
 
 .underline:after {
@@ -402,6 +396,12 @@ Email SMS Page
   right: 0;
 }
 
+.homebutton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
 
 @media (min-width:600px) {
 	.consolepic {
@@ -427,6 +427,10 @@ Email SMS Page
 	.techstack{
 		margin-left: 100px;
 	}
+	.homebutton {
+	margin-bottom: 70px;
+	margin-right: 100px;
+}
 }
 
 
