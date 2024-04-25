@@ -363,6 +363,17 @@ Email SMS Page
 	margin-top: 200px;
 }
 
+.project-top-section{
+ display: flex;
+ flex-direction: column;
+}
+
+.techstack {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 @media (min-width:600px) {
 	.consolepic {
 		max-width: 600px;
@@ -377,6 +388,15 @@ Email SMS Page
 	}
 	.textpic {
 		max-width: 300px;
+	}
+	.project-top-section{
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.techstack{
+		margin-left: 100px;
 	}
 }
 
