@@ -46,3 +46,13 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "grid";
   dots[slideIndex-1].className += " active";
 }
+
+
+//scroll to projects section
+document.querySelector('a[href^="#"]').addEventListener('click', function (e) {
+    e.preventDefault();
+
+document.querySelector(this.getAttribute('href')).scrollIntoView({
+  behavior: 'smooth'
+  });
+});

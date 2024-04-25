@@ -8,6 +8,10 @@ h2 {
 	color:#009087;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .typewriter {
 	display: inline-block;
   overflow: hidden;
