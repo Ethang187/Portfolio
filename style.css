@@ -374,6 +374,35 @@ Email SMS Page
 	align-items: center;
 }
 
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  color: #5A6D5F;
+}
+
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: -5px;
+  background: #5A6D5F;
+  height: 4px;
+  transition-property: left right;
+  transition-duration: 0.6s;
+  transition-timing-function: ease-out;
+  border-radius: 10px;
+}
+
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  right: 0;
+}
+
+
 @media (min-width:600px) {
 	.consolepic {
 		max-width: 600px;
