@@ -1,11 +1,11 @@
 body {
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
-	background: linear-gradient(rgb(255,243,199), rgb(255,251,238));
+	background-color: #EDF4F2;
 }
 
 h2 {
-	color:#009087;
+	color:#31473A;
 }
 
 html {
@@ -84,7 +84,7 @@ a {
 h1 {
 	font-size: 3.5em;
 	font-weight: 700;
-	color:#009087;
+	color:#31473A;
 }
 
 .navbar {
